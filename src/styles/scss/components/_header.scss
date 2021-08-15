@@ -1,0 +1,125 @@
+@import "../global/variables";
+@import "../global/mixins";
+
+header {
+  padding: 37px 0;
+}
+
+.logo {
+  position: inherit;
+  z-index: 1;
+  width: 106.25px;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile {
+  height: 100%;
+
+  .mobile__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .burger-container .burger {
+    display: none;
+  }
+
+  .search-form__input {
+    display: block;
+  }
+
+  .profile {
+    display: none;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .close {
+    width: 32px;
+    position: absolute;
+    right: 0;
+  }
+
+  .close:before,
+  .close:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    border-radius: 1.575px;
+    background-color: $black-dark;
+  }
+
+  .close::before {
+    transform: rotate(45deg);
+  }
+
+  .close::after {
+    transform: rotate(-45deg);
+  }
+
+  .search-form {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+.header__nav {
+  margin: 0 60px;
+}
+
+header .menu__item:not(:last-child) {
+  margin-right: 60px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid $black-dark;
+  border-radius: 2px;
+
+    &__input {
+      border: none;
+      font-size: calc(1.5vw);
+    }
+
+    &__button-container {
+      display: inherit;
+      width: 46px;
+      height: 46px;
+      background: $blue-light;
+      border: 1px solid $blue-light;
+      border-radius: 0px 1px 1px 0px;
+    }
+
+    &__button {
+      width: 100%;
+      height: 100%;
+      background: url(../../../img/header/Search.png) no-repeat center;
+    }
+}
+
+.profile {
+  margin-left: 60px;
+
+  &__container {
+    display: flex;
+  }
+    
+  &__avatar {
+    width: 21px;
+    height: 22px;
+    background: url(../../../img/header/User.png) no-repeat center;
+    background-size: contain;
+    margin-right: 12.5px
+  }
+}
+
