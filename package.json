@@ -1,0 +1,45 @@
+{
+  "name": "extbel",
+  "version": "1.0.0",
+  "description": "test task for the frontend developer position",
+  "main": "main.js",
+  "scripts": {
+    "build": "SET NODE_ENV='production' && webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Greenkrok/ExtBel.git"
+  },
+  "keywords": [
+    "ExtBel",
+    "html",
+    "scss",
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Zharkevich Ilya <zharkevichilya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Greenkrok/ExtBel/issues"
+  },
+  "homepage": "https://github.com/Greenkrok/ExtBel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.0",
+    "css-loader": "^5.2.4",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^6.0.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.0",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
