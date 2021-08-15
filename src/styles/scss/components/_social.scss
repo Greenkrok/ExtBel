@@ -1,0 +1,14 @@
+.social {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 52px;
+
+  &__item {
+    width: 28px;
+    height: 28px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
