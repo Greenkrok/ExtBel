@@ -3,6 +3,7 @@
 @import "./global/variables";
 @import "./global/mixins";
 
+@import "./components/modal";
 @import "./components/header";
 @import "./components/burger";
 
@@ -43,4 +44,8 @@ img {
 .menu {
   display: flex;
   justify-content: center;
+}
+
+.error {
+  color: red;
 }
