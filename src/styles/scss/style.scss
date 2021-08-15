@@ -5,6 +5,7 @@
 
 @import "./components/modal";
 @import "./components/header";
+@import "./components/main";
 @import "./components/footer";
 @import "./components/social";
 @import "./components/burger";
@@ -24,6 +25,29 @@ body {
   color: $black-dark;
   letter-spacing: -0.015em;
   height: 100%
+}
+
+h1 {
+  color: $white;
+  padding: 85px 0 86px;
+  @include font(700, 42px, 49px);
+}
+
+h2 {
+  color: $blue-dark;
+  @include font(600, 36px, 24px);
+}
+
+h3 {
+  color: $blue-dark;
+  @include font(600, 28px, 38px);
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  color: $blue-dark;
+  @include font(600, 18px, 24px);
 }
 
 nav {
@@ -50,4 +74,10 @@ img {
 
 .error {
   color: red;
+}
+
+summary {
+  display: inline-block;
+  cursor: pointer;
+  color: $blue-light;
 }

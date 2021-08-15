@@ -1,0 +1,119 @@
+@import "../global/variables";
+@import "../global/mixins";
+
+main {
+  a {
+    color: $blue-light;
+  }
+}
+
+.opportunities {
+  background: url(./img/main/Slide.png) no-repeat center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: color;
+  padding-bottom: 76px ;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+  padding: 28px 34px;
+  width: calc(100% / 3 - 100px);
+
+  p:nth-child(2) {
+    margin: 11px 0;
+  }
+}
+
+.card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work {
+  background: #F3FAFF;
+}
+
+.work__title {
+  display: flex;
+  justify-content: center;
+  padding: 69px 0 52px;
+}
+
+.slider__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects {
+  display: flex;
+  margin: 0 30px;
+  width: 1240px;
+  overflow: hidden;
+}
+  
+.project {
+  width: 605px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(16, 65, 187, 0.15);
+
+  &__description {
+    padding: 19px 34px 27px 33px;
+
+    p {
+      padding: 6px 0 7px 0;
+      color: $black-light;
+    }
+  }
+}
+
+.project:not(:last-child) {
+  margin-right: 30px;
+}
+
+.project_showing {
+  background-color: oldlace;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+
+  &_left {
+    background: url(../../../img/main/arrow-left.png) no-repeat center;
+    background-size: contain;
+  }
+
+  &_right {
+    background: url(../../../img/main/arrow-right.png) no-repeat center;
+    background-size: contain;
+  }
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  padding: 46px 0;
+
+  &__item {
+    background-color:  rgba(63, 151, 251, 0.3);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  &__item:hover {
+    background-color: $blue-light;
+    cursor: pointer;
+  }
+}
