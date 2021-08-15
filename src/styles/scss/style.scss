@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+@import "./global/variables";
+@import "./global/mixins";
+
+@import "./components/header";
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  @include font(400, 16px, 24px);
+  color: $black-dark;
+  letter-spacing: -0.015em;
+  height: 100%
+}
+
+nav {
+  @include font( "", 20px, 27px);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a:hover, a:focus, a:active {
+  opacity: .7;
+}
+
+img {
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}

@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const miniCss = require('mini-css-extract-plugin');
