@@ -1,5 +1,3 @@
-/*jshint esversion: 6 */
-
 if( window.innerWidth < 960 ) {
   const $header = document.querySelector('header');
   const $btnSearch = document.querySelector('.search-form__button-container');
@@ -12,7 +10,7 @@ if( window.innerWidth < 960 ) {
   });
 
 
-// Закрытие окна
+// Сlosing the window
 const closeModal = () => {
   $header.classList.remove('mobile');
 };

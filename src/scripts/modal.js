@@ -1,6 +1,4 @@
-/*jshint esversion: 6 */
-
-// Переменные
+// Variables
 const $btnProfile = document.getElementsByClassName('profile__container')[0];
 const $modal = document.getElementsByClassName('modal')[0];
 const $btnClose = document.getElementsByClassName('close')[0];
@@ -8,15 +6,15 @@ const $popapInputs = document.querySelectorAll('.popap__input');
 const $btnLog = document.getElementsByClassName('log')[0];
 const $btnSign = document.getElementsByClassName('sign')[0];
 
-// Открытие окна
+// Opening the window
 const openModal = () => $modal.classList.add('open');
 
 $btnProfile.addEventListener('click', openModal);
 
-// Закрытие окна
+// Сlosing the window
 const closeModal = () => {
     
-    // Обнуление полей для ввода
+    // Resetting input fields
     for( let input of $popapInputs) {
         input.value = '';
     }
@@ -27,7 +25,7 @@ const closeModal = () => {
 $btnClose.addEventListener('click', closeModal);
 
 
-// Валидация формы
+// Form validation
 const submit = () => {
     const $form = document.querySelector('.popap__form');
 
