@@ -1,4 +1,8 @@
 @media (max-width: 1600px) {
+  .container {
+    max-width: 1120px;
+  }
+
   body {    
     font-weight: normal;
     font-size: 12px;
@@ -43,10 +47,6 @@
     font-size: 14px;
     line-height: 19px;
   }
-
-  .container {
-    max-width: 1120px;
-  }
   
   .profile {
     margin-left: 48px;
@@ -68,6 +68,10 @@
 }
 
 @media (max-width: 1280px) {
+  .container {
+    max-width: 920px;
+  }
+
   body {    
     font-size: 10px;
     line-height: 14px;
@@ -93,10 +97,6 @@
     font-weight: 600;
     font-size: 12px;
     line-height: 14px;
-  }
-
-  .container {
-    max-width: 920px;
   }
 
   .logo {
@@ -139,6 +139,10 @@
 }
 
 @media (max-width: 960px) {
+  .container {
+    max-width: 648px;
+  }
+
   body {    
     font-size: 27px;
     line-height: 150%;
@@ -166,10 +170,6 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 43px;
-  }
-
-  .container {
-    max-width: 648px;
   }
   
   header {
@@ -260,35 +260,19 @@
     }
   }
 
-  .projects {
-    width: 100%;
-    margin: 0;
+  .slick-arrow {  
+      position: absolute;
+
+      &_left {
+        left: 29px;
+        top: 135px;
+      }
+
+      &_right {
+        right: 29px;
+        top: 135px;
+      }
   }
-  
-  .project {
-    width: 100%;
-  }
-
-  .project:not(:first-child) {
-    display: none;
-
-  }.project:first-child {
-    margin-right: 0;
-}
-
-.slick-arrow {  
-    position: absolute;
-
-    &_left {
-      left: 29px;
-      top: 135px;
-    }
-
-    &_right {
-      right: 29px;
-      top: 135px;
-    }
-}
 
   footer .menu {
     width: 100%;
@@ -316,6 +300,10 @@
 }
 
 @media (max-width: 720px) {
+  .container {
+    max-width: 288px;
+  }
+
   body {    
     font-size: 12px;
     line-height: 19px;
@@ -336,10 +324,6 @@
   h3, h4 {
     font-weight: 600;
     font-size: 14px;
-  }
-
-  .container {
-    max-width: 288px;
   }
 
   .logo {

@@ -22,7 +22,7 @@ main {
 }
 
 .card {
-  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), $white;
   padding: 28px 34px;
   width: calc(100% / 3 - 100px);
 
