@@ -1,10 +1,10 @@
 // Variables
-const $btnProfile = document.getElementsByClassName('profile__container')[0];
-const $modal = document.getElementsByClassName('modal')[0];
-const $btnClose = document.getElementsByClassName('close')[0];
+const $btnProfile = document.querySelector('.profile__container');
+const $modal = document.querySelector('.modal');
+const $btnClose = document.querySelector('.close');
 const $popapInputs = document.querySelectorAll('.popap__input');
-const $btnLog = document.getElementsByClassName('log')[0];
-const $btnSign = document.getElementsByClassName('sign')[0];
+const $btnLog = document.querySelector('.log');
+const $btnSign = document.querySelector('.sign');
 
 // Opening the window
 const openModal = () => $modal.classList.add('open');
