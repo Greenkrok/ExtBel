@@ -33,7 +33,7 @@
   margin: 16px 30px;
 }
 
-// Стрелка
+// Arrow
 .slick-arrow {
   position: absolute;
   top: 50%;
@@ -46,19 +46,19 @@
   cursor: pointer;
 }
 
-// Стрелка влево
+// Left arrow
 .slick-arrow.slick-prev{
   left: 0;
   background: url('../../../img/main/arrow-left.png') 0 0 /100% no-repeat;
 }
 
-// Стрелка вправо
+// Right arrow
 .slick-arrow.slick-next {
   right: 0;
   background: url('../../../img/main/arrow-right.png') 0 0 /100% no-repeat;
 }
 
-// Точки
+// Dots
 .slick-dots {
   display: flex;
   justify-content: center;
