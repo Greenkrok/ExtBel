@@ -2,6 +2,7 @@
 @import "../global/mixins";
 
 main {
+  flex: 1;
   a {
     color: $blue-light;
   }

@@ -7,7 +7,6 @@
 @import "./components/header";
 @import "./components/main";
 @import "./components/footer";
-@import "./components/social";
 @import "./components/burger";
 @import "./components/slider";
 
@@ -26,6 +25,12 @@ body {
   color: $black-dark;
   letter-spacing: -0.015em;
   height: 100%
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh
 }
 
 h1 {
