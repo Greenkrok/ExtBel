@@ -17,7 +17,7 @@
   .header__nav {
     font-size: 16px;
     line-height: 22px;
-    margin: 0 60px;
+    margin: 0 51px;
   }
 
   header .menu__item:not(:last-child) {
@@ -184,19 +184,33 @@
   main {
     margin-top: 123px;
   }
+  
+  .mobile__container {
+    order: 2;
+  }
+
+  .header__nav {
+    order: 1;
+  }
+
+  .search-form {
+    order: 3;
+  }
+
+  .profile {
+    order: 4;
+  }
 
   .logo {
     width: 153px;
   }
-  
   
   .header__nav {
     font-size: 36px;
     line-height: 49px;
     margin: 0;
   }
-
-          
+  
   .profile {
     margin: 0;
   }
@@ -204,6 +218,10 @@
   .profile__avatar {
     width: 40.5px;
     height: 42.75px;
+  }
+
+  .work details {
+    display: none;
   }
 
   .slick-arrow {
@@ -324,6 +342,9 @@
   h3, h4 {
     font-weight: 600;
     font-size: 14px;
+  }
+  .row {
+    flex-flow: wrap;
   }
 
   .logo {
