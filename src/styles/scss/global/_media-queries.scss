@@ -244,7 +244,6 @@
 
     .menu {
       display: none;
-      transition: left .5s;
     }
 
     .toggle:checked ~ .menu {
@@ -257,9 +256,8 @@
       width: 70%;
       height: 100%;
       background-color: $white;
-      box-shadow: 200px 1px rgba(0, 0, 0, 0.5);
+      box-shadow: 14em 1px rgba(0, 0, 0, 0.5);
       padding: 200px 65px;
-
       .menu__item {
         margin-bottom: 14px;
       }

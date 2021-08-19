@@ -1,5 +1,4 @@
 @import "../global/variables";
-@import "../global/mixins";
 
 header {
   padding: 37px 0;
@@ -8,7 +7,6 @@ header {
 .logo {
   position: inherit;
   z-index: 1;
-  width: 106.25px;
 }
 
 .row {
