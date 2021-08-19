@@ -5,7 +5,9 @@
   "main": "main.js",
   "scripts": {
     "build": "SET NODE_ENV='production' && webpack",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -24,13 +26,14 @@
   "bugs": {
     "url": "https://github.com/Greenkrok/ExtBel/issues"
   },
-  "homepage": "https://github.com/Greenkrok/ExtBel#readme",
+  "homepage": "http://gitname.github.io/ExtBel",
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^9.0.0",
     "css-loader": "^5.2.4",
+    "gh-pages": "^3.2.3",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
