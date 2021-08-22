@@ -1,4 +1,4 @@
-## <a href="https://greenkrok.github.io/ExtBel/"> Watch here </a>
+## <a href="https://greenkrok.github.io/ExtBel/"> Watch here </a> (деплой ломается немного, лучше скачать и у себя смотреть)
 
 ## Build Setup:
 
